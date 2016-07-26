@@ -11,4 +11,4 @@ A simple node proxy
 	  DEFAULT_PUBLIC_PATH: "./"	// The public folder where holds the index.html and other static assets
 	}
 	</pre>
-* Run `node server.js`, the proxy server will be host at http://127.0.0.1:300. You can change the port in server.js as you want
+* Run `node server.js`, the proxy server will be host at http://127.0.0.1:3000. You can change the port in server.js as you want
