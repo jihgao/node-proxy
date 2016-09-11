@@ -13,8 +13,6 @@ var publicDir = config.DEFAULT_PUBLIC_PATH;
 var proxy = httpProxy.createProxyServer();
 var app = express();
 
-console.log(config, publicDir, targetHost, config.API_BASE_PATH);
-
 app.disable('x-powered-by');
 app.use(cookieParser());
 app.use(session({secret: require('crypto').randomBytes(20).toString('base64')}));
